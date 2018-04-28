@@ -1,0 +1,8 @@
+2018-04-27 23:40:22,971 INFO  [Base] log file initialized 
+2018-04-27 23:40:22,979 INFO  [SmokeTest] utility class instantiated 
+2018-04-27 23:40:22,979 INFO  [Utility] getHighestWordAndLength method started executing 
+2018-04-27 23:40:22,980 INFO  [Utility] sentence is splitted properly by word 
+2018-04-27 23:40:22,980 INFO  [SmokeTest] invoked getHighestWordAndLength method 
+2018-04-27 23:40:22,981 INFO  [SmokeTest] The longest word of the sentence is : jumped  --And the length of the word is : 6 
+2018-04-27 23:40:22,988 INFO  [Base] codeChallenge is passed 
+2018-04-27 23:40:22,989 INFO  [Base] Method execution ended 

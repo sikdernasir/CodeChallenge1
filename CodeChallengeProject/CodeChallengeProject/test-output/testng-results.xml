@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[log file initialized]]>
+    </line>
+    <line>
+      <![CDATA[utility class instantiated]]>
+    </line>
+    <line>
+      <![CDATA[sentence is splitted properly by word]]>
+    </line>
+    <line>
+      <![CDATA[invoked getHighestWordAndLength method]]>
+    </line>
+    <line>
+      <![CDATA[The longest word of the sentence is : jumped  --And the length of the word is : 6]]>
+    </line>
+    <line>
+      <![CDATA[codeChallenge is passed]]>
+    </line>
+    <line>
+      <![CDATA[Method execution ended]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="124" started-at="2018-04-28T03:40:22Z" finished-at="2018-04-28T03:40:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="124" started-at="2018-04-28T03:40:22Z" finished-at="2018-04-28T03:40:22Z">
+      <class name="org.code.challenge.SmokeTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:org.code.challenge.SmokeTest@68c4039c]" name="initialize" is-config="true" duration-ms="86" started-at="2018-04-28T03:40:22Z" finished-at="2018-04-28T03:40:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[log file initialized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="codeChallenge()[pri:0, instance:org.code.challenge.SmokeTest@68c4039c]" name="codeChallenge" duration-ms="8" started-at="2018-04-28T03:40:22Z" finished-at="2018-04-28T03:40:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[utility class instantiated]]>
+            </line>
+            <line>
+              <![CDATA[sentence is splitted properly by word]]>
+            </line>
+            <line>
+              <![CDATA[invoked getHighestWordAndLength method]]>
+            </line>
+            <line>
+              <![CDATA[The longest word of the sentence is : jumped  --And the length of the word is : 6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- codeChallenge -->
+        <test-method status="PASS" signature="close(org.testng.ITestResult)[pri:0, instance:org.code.challenge.SmokeTest@68c4039c]" name="close" is-config="true" duration-ms="4" started-at="2018-04-28T03:40:22Z" finished-at="2018-04-28T03:40:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=codeChallenge status=SUCCESS method=SmokeTest.codeChallenge()[pri:0, instance:org.code.challenge.SmokeTest@68c4039c] output=utility class instantiated]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[codeChallenge is passed]]>
+            </line>
+            <line>
+              <![CDATA[Method execution ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.code.challenge.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
